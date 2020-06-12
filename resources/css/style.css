@@ -1,15 +1,15 @@
 body {
-    background-color: black;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
+    background-color: black;
 }
 
 header {
     margin-bottom: 40px;
 }
 
-a {
+a.download-link {
     font-size: 16px;
     color: aquamarine;
 }
@@ -19,20 +19,16 @@ header h1 {
     font-size: 50px;
 }
 
-main h2, footer h2 {
+main h2 {
     font-weight: 300;
     font-size: 42px;
 }
 
-main p {
+p {
     font-size: 21px;
     color: gray;
 }
 
-main img {
-    align-items: center; 
-}
-footer p {
-    color: gray;
+footer {
     text-align: right;
 }
